@@ -1,0 +1,211 @@
+﻿QMainWindow {
+    background: #f6f1fb;
+}
+
+QWidget {
+    background: #f6f1fb;
+    color: #111111;
+    font-family: "Segoe UI";
+    font-size: 13px;
+}
+
+QFrame#topHeader {
+    background: #ffffff;
+    border-bottom: 1px solid #111111;
+}
+
+QLabel#headerTitle {
+    color: #111111;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QLabel#logoBadge {
+    background: #ffffff;
+    color: #7a19ff;
+    border: 2px solid #7a19ff;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+QLabel#dateBadge {
+    background: #eadcff;
+    color: #2b233a;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 11px;
+}
+
+QPushButton#powerButton {
+    background: transparent;
+    color: #ff0000;
+    border: none;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+QPushButton#backButton {
+    background: #f0e8fb;
+    color: #7a19ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QFrame#panel {
+    background: #ffffff;
+    border: 1px solid #111111;
+    border-radius: 12px;
+}
+
+QFrame#sectionPanel {
+    background: #ffffff;
+    border: 1px solid #111111;
+    border-radius: 12px;
+}
+
+QFrame#softCard {
+    background: #f0ecff;
+    border: none;
+    border-radius: 14px;
+}
+
+QFrame#whiteCard {
+    background: #ffffff;
+    border: none;
+    border-radius: 22px;
+}
+
+QLabel#panelTitle {
+    background: transparent;
+    color: #7a19ff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QLabel#counterBig {
+    background: transparent;
+    color: #8b5ce6;
+    font-size: 72px;
+    font-weight: 300;
+}
+
+QLabel#counterUnit {
+    background: transparent;
+    color: #111111;
+    font-size: 28px;
+}
+
+QLabel#cameraPlaceholder {
+    background: #d9d9d9;
+    color: #777777;
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+QLabel#cameraIcon {
+    background: #b995ea;
+    color: #ffffff;
+    border-radius: 34px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+QPushButton#mainActionButton {
+    border: 1px solid #111111;
+    border-radius: 12px;
+    color: #7a19ff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+QPushButton#mainActionButton:hover {
+    border: 2px solid #7a19ff;
+}
+
+QPushButton[buttonColor="green"] {
+    background: #b9f6bf;
+}
+
+QPushButton[buttonColor="purple"] {
+    background: #dfbdf6;
+}
+
+QPushButton[buttonColor="yellow"] {
+    background: #fbff79;
+}
+
+QPushButton[buttonColor="red"] {
+    background: #f86b7a;
+}
+
+QPushButton#smallPill {
+    background: #e6d5ff;
+    color: #111111;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 18px;
+    font-size: 11px;
+}
+
+QPushButton#saveButton {
+    background: #b9f6bf;
+    color: #7a19ff;
+    border: 1px solid #111111;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QPushButton#deleteButton {
+    background: #f86b7a;
+    color: #7a19ff;
+    border: 1px solid #111111;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QTableWidget {
+    background: #ffffff;
+    border: none;
+    gridline-color: #b784ff;
+    color: #111111;
+    font-size: 12px;
+}
+
+QTableWidget::item {
+    color: #111111;
+    padding: 4px;
+    border-bottom: 1px solid #b784ff;
+}
+
+QHeaderView::section {
+    background: #ffffff;
+    color: #111111;
+    border: none;
+    border-bottom: 1px solid #111111;
+    padding: 4px;
+    font-weight: normal;
+}
+
+QLineEdit, QComboBox {
+    background: #ffffff;
+    color: #111111;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+QProgressBar {
+    background: #e2b8ff;
+    border: none;
+    border-radius: 8px;
+}
+
+QProgressBar::chunk {
+    background: #a349f4;
+    border-radius: 8px;
+}
